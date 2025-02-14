@@ -7,7 +7,7 @@ Kiện hàng được shipper vận chuyển về nhà máy và sau đó đưa l
 - Kết nối với Bộ điều khiển PLC Mitsubishi qua giao thức Modbus TCP.
 - Kết nối với Đầu đọc mã vạch Cognex sử dụng SDK do hãng phát triển.
 - Kết nối với Camera đo kích thước Cognex qua kết nối TCP/IP.
-- Kết nối với Băng tải cân sử dụng giao thức Modbus Rs485.
+- Kết nối với Băng tải cân sử dụng giao thức Modbus Rs-485.
 ### CÁC CÔNG NGHỆ SỬ DỤNG
 - Windows Forms, MS SQL Server
 - Ngôn ngữ: C#
