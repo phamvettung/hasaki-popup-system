@@ -1,5 +1,5 @@
 # Phần mềm cho Hệ thống Pop-up phân loại sản phẩm Hasaki
-![Warehouse Control Systems](/assets/hasaki2.jpg)
+![Hasaki Popup System](/assets/hasaki2.jpg)
 ### NGUYÊN LÝ HOẠT ĐỘNG
 Kiện hàng được shipper vận chuyển về nhà máy và sau đó đưa lên băng chuyền để phân loại. Dựa vào mã Barcode và QR code dán trên kiện hàng, Phần mềm đọc mã vạch và gọi API để nhận lại số cửa (zone) cần phân loại, sau đó gửi số cửa xuống băng chuyền để pop-up kiện hàng vào zone.
 ### CÁC CHỨC NĂNG
