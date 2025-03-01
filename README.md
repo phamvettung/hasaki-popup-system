@@ -11,6 +11,4 @@ Kiện hàng được shipper vận chuyển về nhà máy và sau đó đưa l
 ### CÁC CÔNG NGHỆ SỬ DỤNG
 - Windows Forms, MS SQL Server
 - Ngôn ngữ: C#
-### HOẠT ĐỘNG HỆ THỐNG
-https://github.com/user-attachments/assets/1bf8ff31-df06-4624-83cf-f6f360fa19f3
 
