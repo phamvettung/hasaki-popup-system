@@ -1,16 +1,19 @@
-# PHẦN MỀM CHO HỆ POP-UP PHÂN LOẠI SẢN PHẨM HASAKI
+# HASAKI PRODUCT CLASSIFICATION POPUP SYSTEM
 ![Hasaki Popup System](/assets/hasaki2.jpg)
-### TỔNG QUAN
-Kiện hàng được shipper vận chuyển về nhà máy và sau đó đưa lên băng chuyền để phân loại. Dựa vào barcode/QR code dán trên kiện hàng, Phần mềm đọc mã vạch truy vấn trong Database để nhận lại số cửa (zone) cần phân loại, sau đó gửi số cửa xuống băng chuyền để pop up kiện hàng vào zone.
-### SƠ ĐỒ KẾT NỐI
+
+### OVERVIEW
+The parcel is stransported by the shipper to the Factory and then put on the conveyor belt for sorting. Based on the barcode/QR code on parcel, the software read barcode, query in the Database to receives back zone number, and then send zone number to the conveyor belt pop up parcel into zone.
+
+### CONNECTION DIAGRAM
 ![Hasaki Popup System](/assets/hasaki_diagram.PNG)
-### CÁC CHỨC NĂNG
-- Đọc mã vạch, khối lượng, kích thước của kiện hàng, gửi số cửa chia xuống băng chuyền và lưu lịch sử.
-- Kết nối với Bộ điều khiển PLC Mitsubishi qua giao thức Modbus TCP.
-- Kết nối với Đầu đọc mã vạch Cognex Dataman 360 sử dụng SDK do hãng phát triển.
-- Kết nối với Camera đo kích thước Cognex Dimension 3D-A1000 qua kết nối TCP/IP.
-- Kết nối với Băng tải cân sử dụng giao thức Modbus Rs-485.
-### CÁC CÔNG NGHỆ SỬ DỤNG
-- Windows Forms
-- MS SQL Server
+
+### FEATURES
+- Read barcode, weight, size of parcel, send zone number to PLC and save history.
+- Connect to PLC controller using Modbus TCP.
+- Connect to the Cognex Dataman 360 using SDK.
+- Connect to the 3D A1000 using TCP/IP.
+- Connect to the Weight conveyor using Modbus RS-485.
+  
+### FRAMEWORK USED
+- C# Windows Forms
 
